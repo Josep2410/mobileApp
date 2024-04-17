@@ -1,0 +1,23 @@
+.menuItemPage{
+  padding : 10px 20px 115px;
+}
+.menuItemPage-img-container{
+  height : 40dvh;
+}
+
+.menuItemPage-img-container img{
+  height : 100%;
+  width: 100%;
+  
+}
+.menuItemPage a {
+  color : black;
+}
+.backArrow{
+  height : 32px;
+  width: 32px
+}
+
+.priceAndBtns{
+  font-weight: 600;
+}

@@ -1,0 +1,18 @@
+.orderSubmitted{
+  height : 60dvh;
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.orderSubmitted h2{
+  display : flex;
+  align-items: center;
+}
+
+.redirecting{
+  font-size: 1.3rem;
+}
+

@@ -1,0 +1,74 @@
+/* center form container to center of page */
+.form-page{
+  min-height: 80vh;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container{
+  min-height: 275px;
+  display : flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 500px;
+}
+
+form{
+  flex: 1;
+  text-align: left;
+  min-height: fit-content;
+  display : flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+label{
+  font-size: 1.2rem;
+}
+
+input[type="text"] , input[type="password"]{
+  padding : 5px 10px ;
+  border-radius: 10px;
+  font-size: 1.05rem;
+}
+
+form label , .submit-btn , .notice{
+  margin-top: 20px;
+}
+
+.submit-btn{
+  width: 90%;
+  align-self: center;
+  border-radius: 15px;
+}
+
+.notice{
+  font-size: .85rem;
+}
+
+
+@media screen and (min-width: 720px) {
+  .form-container h2{
+    font-size: 1.8rem;
+  }
+  label{
+    font-size: 1.35rem;
+  }
+  input[type="text"] , input[type="password"]{    
+    border-radius: 10px;
+    font-size: 1.25rem;
+  }
+
+  .submit-btn{
+    font-size: 1.15rem;
+    padding : 8px 10px;
+  }
+  
+  .notice{
+    font-size: 1rem;
+  }
+}
+
+
+

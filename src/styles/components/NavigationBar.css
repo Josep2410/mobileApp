@@ -1,0 +1,57 @@
+.nav{
+  border-top : 3px solid #C8C7C7;
+  padding : 10px 0px;
+  background-color: white;
+  max-width: 574px;
+  position : fixed;
+  bottom : 0;
+  width: 100%;
+}
+.nav a {
+  color : black;
+  padding : 8px 10px;
+}
+
+.navItem{
+  height : 60px;
+  width : 60px;
+  border-radius : 50%;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.25);
+  display : flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg{
+  height: 28px;
+  width : 28px;
+}
+
+.active{
+  border: 3px solid var(--secondaryBlue);
+  color : var(--secondaryBlue);
+  font-weight: 400;
+}
+
+
+.cart-container{
+  position : relative;
+}
+
+.numInCart{
+  color : white;
+  padding : 3px 10px;
+  border-radius : 50%;
+  background-color: var(--primaryBlue);
+ font-weight: 600;
+}
+
+.position-on-screen{
+  position : absolute;
+  top : -25px;
+  right : -25px;
+}
+
+.disappear{
+  display : none;
+}

@@ -1,0 +1,42 @@
+.item{
+  border : 1px solid rgb(176, 176, 176);
+  width: 100%;
+  box-shadow: 0px 4px 4px rgb(0, 0, 0, .25);
+  margin : 10px 0;
+  border-radius: 8px;
+  display : flex;
+  
+}
+
+.item a {
+  color : black;
+  text-decoration: none;
+}
+
+.item-img-container{
+  width: 42%;
+  height : 100%;
+  padding : 5px;
+}
+
+.item-info{
+  flex : 1;
+  padding : 10px 8px;
+  display : flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position : relative;
+}
+
+.item-info h3{
+  font-size: 1.25rem;
+}
+.item-info h4{
+  font-size: 1.20rem;
+}
+
+.position{
+  position : absolute;
+  bottom : 15px;
+  right : 15px;
+}

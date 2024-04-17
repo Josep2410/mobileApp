@@ -1,0 +1,9 @@
+header{
+  background-color: var(--primaryBlue);
+  padding : 5px 10px;
+  color : var(--yellow);
+}
+
+header h1{
+  text-shadow: 4px 4px 4px rgba(9, 5, 5, 0.502) ;
+}

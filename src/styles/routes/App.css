@@ -1,0 +1,12 @@
+:root{
+  --primaryBlue : #49aaff;
+  --secondaryBlue : #0088FF;
+  --yellow : #FFE500;
+}
+
+body{
+  box-sizing: border-box;
+  font-size: 16.25px ;
+  user-select: none;
+}
+

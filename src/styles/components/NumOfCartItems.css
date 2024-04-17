@@ -1,0 +1,17 @@
+.numInCart{
+  color : white;
+  padding : 3px 10px;
+  border-radius : 50%;
+  background-color: var(--primaryBlue);
+ font-weight: 600;
+}
+
+.position-on-screen{
+  position : absolute;
+  top : -20px;
+  right : -20px;
+}
+
+.disappear{
+  display : none;
+}

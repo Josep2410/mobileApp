@@ -1,0 +1,44 @@
+.loadingScreen{
+  height : 80vh;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuPage{
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  padding : 10px 20px 115px;
+}
+
+.menuPage h2{
+  align-self: flex-start;
+}
+
+.filter-btns-container{
+  margin : 5px;
+  width: 65%;
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-btns-container a{
+  text-decoration: none;
+}
+
+.activeFilter{
+  font-size: 1.15rem;
+  background-color: var(--primaryBlue);
+  padding : 5px 15px;
+  border-radius: 20px;
+  color : white;
+  font-weight: 500;
+}
+
+.nonActiveFilter{
+  color : rgb(142, 142, 142);
+  font-size: 1.15rem;
+}
+

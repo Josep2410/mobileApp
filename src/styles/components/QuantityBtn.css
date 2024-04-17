@@ -1,0 +1,27 @@
+.quantityBtns{
+  display : flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height : fit-content
+
+}
+
+.quantityBtns p{
+  margin : 0;
+}
+.plus-btn , .sub-btn{
+  color : var(--primaryBlue);
+  height : 30px;
+  width : 30px;
+}
+
+.plus-btn:hover , .sub-btn:hover{
+  cursor: pointer;
+}
+
+.cartPosition{
+  position : absolute;
+  width: 50%;
+  right : 0px;
+  bottom : 20px;
+}
